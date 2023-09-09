@@ -1,0 +1,23 @@
+@import "../../styles/colors.scss";
+
+.profile {
+    padding-top: 25px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    &__button {
+        padding: 10px 20px;
+        background-color: $text-color;
+        color: $bg-color;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    &__input-file {
+        display: none;
+    }
+}
